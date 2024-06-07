@@ -11,6 +11,10 @@
 
 > The Python REST server component of the GetMyAttention system
 
+## System diagram
+
+<img src="System Architecture.drawio.png" alt="System architecture diagram" width="707" height="267">
+
 ## What is the project?
 
 The GetMyAttention Server is a Python REST server that proxies commands between the GetMyAttention App and the GetMyAttention Node. It provides additional features that the Node alone cannot handle.
