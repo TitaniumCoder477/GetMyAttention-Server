@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> The Python REST server component of the GetMyAttention system
+> The Python REST (server) component of the GetMyAttention system
 
 ## System diagram
 
