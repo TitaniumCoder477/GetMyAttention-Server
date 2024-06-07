@@ -1,0 +1,72 @@
+<mxfile host="Electron" modified="2024-06-07T14:32:55.572Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="UcXP_zSLaBb-WFtxde6U" version="24.5.1" type="device">
+  <diagram name="Page-1" id="ZSZaa8B1OJM8pMLhOpXY">
+    <mxGraphModel dx="988" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-4" target="hGj_gqiBT4FRcHdiCMDX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGj_gqiBT4FRcHdiCMDX-7">
+          <mxGeometry x="0.5067" y="1" relative="1" as="geometry">
+            <mxPoint x="20" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-11" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGj_gqiBT4FRcHdiCMDX-7">
+          <mxGeometry x="-0.72" y="-1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-4" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-5" target="hGj_gqiBT4FRcHdiCMDX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-9" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGj_gqiBT4FRcHdiCMDX-8">
+          <mxGeometry x="0.7533" relative="1" as="geometry">
+            <mxPoint x="5" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGj_gqiBT4FRcHdiCMDX-8">
+          <mxGeometry x="-0.7667" relative="1" as="geometry">
+            <mxPoint x="-4" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-5" value="Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-6" value="Node" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-13" target="hGj_gqiBT4FRcHdiCMDX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-13" value="&lt;div&gt;Android app&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-15" target="hGj_gqiBT4FRcHdiCMDX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-15" value="&lt;div&gt;Debian 12 virtual machine&lt;/div&gt;(Python)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-17" target="hGj_gqiBT4FRcHdiCMDX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-17" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Featherwing HUZZAH w/ CharliePlex LED matrix&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Arduino C/C++)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="hGj_gqiBT4FRcHdiCMDX-19" target="hGj_gqiBT4FRcHdiCMDX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-19" value="&lt;div&gt;Desktop app&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hGj_gqiBT4FRcHdiCMDX-21" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kotlin Multiplatform&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="240" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

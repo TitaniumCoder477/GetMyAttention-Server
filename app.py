@@ -37,6 +37,7 @@ def off():
 
 @app.get('/state')
 def state():
+    print("INFO: Client requested state...")
     try:
         r = requests.get('http://' + nodeHostname + '/state')
     except Exception as e:
@@ -47,19 +48,33 @@ def state():
         status=r.status_code,
     )
 
-@app.post('/cancel')
-def cancel():
+@app.get('/schedules')
+def schedules():
+    print("INFO: Client requested list of schedules...")
+    try:
+        keys = [k for k in scheduleThreads.keys()]
+        schedulesAsJson = json.dumps({'schedules': keys})
+    except Exception as e:
+        print("ERROR: %s..." % e)
+        abort(400)
+    return Response(
+        schedulesAsJson,
+        status=200,
+    )
+
+@app.post('/delete')
+def delete():
     message = ""
     if request.args is None or len(request.args) <= 0:
         abort(400)
     else:
         try:
-            print("INFO: Requested cancellation of schedule %s " % request.args["timestamp"])
+            print("INFO: Requested deletion of schedule %s " % request.args["timestamp"])
             app.config["timestamp"] = datetime.fromisoformat(request.args["timestamp"]).isoformat()
             try:
                 timer = scheduleThreads.pop(app.config["timestamp"])
                 timer.cancel()
-                message = "Schedule found and cancelled."
+                message = "Schedule found and deleted."
             except KeyError as ke:
                 message = "Schedule was NOT found!"
             print("INFO: %s" % message)
