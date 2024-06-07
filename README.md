@@ -25,7 +25,7 @@ The GetMyAttention Server is a Python REST server that proxies commands between 
 
 * Get state of a node DONE
 * Schedule multiple future "on" commands DONE
-* Cancel all schedules
+* Cancel all schedules DONE
 * Proxy commands to multiple nodes
 * Reboot a node
 
